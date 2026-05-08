@@ -29,7 +29,7 @@ public class ParkingAuthController {
         this.authService = authService;
     }
 
-    @GetMapping("/auth/status")
+    @GetMapping({"/status", "/auth/status"})
     @Operation(summary = "Get auth service status")
     public Map<String, String> status() {
         return Map.of(

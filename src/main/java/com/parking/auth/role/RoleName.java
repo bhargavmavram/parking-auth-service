@@ -4,5 +4,8 @@ public enum RoleName {
     ADMIN,
     USER,
     MANAGER,
-    EMPLOYEE
+    EMPLOYEE,
+    PARKING_OWNER,
+    PAYMENT_TESTER,
+    SUPPORT
 }
